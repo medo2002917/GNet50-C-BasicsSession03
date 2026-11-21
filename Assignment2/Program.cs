@@ -120,6 +120,16 @@ namespace Assignment2
                 }
                 Console.WriteLine(bookName);
             }
+
+            // Q17
+            foreach (string bookName in books)
+            {
+                if (bookName == "The Pragmatic Programmer")
+                {
+                    continue;
+                }
+                Console.WriteLine(bookName);
+            }
         }
     }
 }
