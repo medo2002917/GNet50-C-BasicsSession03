@@ -39,6 +39,11 @@ namespace Assignment2
             // Q06
             Console.WriteLine($"Book: {title}, Pages: {pages}");
 
+            // Q07
+            Console.WriteLine(string.Format("Book: {0}, Pages: {1}", title, pages));
+
+
+
         }
     }
 }
