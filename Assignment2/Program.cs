@@ -30,6 +30,12 @@ namespace Assignment2
             bookText.Replace("Book List", "Library");
             Console.WriteLine(bookText.ToString());
 
+            // Q05
+            string title = "Clean Code";
+            int pages = 464;
+
+            Console.WriteLine("Book: " + title + ", Pages: " + pages);
+
         }
     }
 }
