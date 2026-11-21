@@ -52,6 +52,14 @@ namespace Assignment2
                 Console.WriteLine("Short Book");
             }
 
+            // Q09
+            bool isAvailable = true;
+            if (pages > 300 && isAvailable == true)
+            {
+                Console.WriteLine("You can borrow this book");
+            }
+
+
         }
     }
 }
