@@ -26,6 +26,9 @@ namespace Assignment2
             bookText.Append(" - Updated");
             Console.WriteLine(bookText.ToString());
 
+            // Q04
+            bookText.Replace("Book List", "Library");
+            Console.WriteLine(bookText.ToString());
 
         }
     }
