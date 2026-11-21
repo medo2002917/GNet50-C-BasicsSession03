@@ -36,6 +36,9 @@ namespace Assignment2
 
             Console.WriteLine("Book: " + title + ", Pages: " + pages);
 
+            // Q06
+            Console.WriteLine($"Book: {title}, Pages: {pages}");
+
         }
     }
 }
