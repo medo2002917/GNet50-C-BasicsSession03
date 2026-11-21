@@ -4,7 +4,14 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            // Q01
+            {
+                string lowerTitle = "clean code";
+                string upperTitle = lowerTitle.ToUpper();
+
+                Console.WriteLine(lowerTitle);
+                Console.WriteLine(upperTitle);
+            }
         }
     }
 }
