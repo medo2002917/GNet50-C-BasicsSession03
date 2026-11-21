@@ -1,4 +1,6 @@
-﻿namespace Assignment2
+﻿using System.Text;
+
+namespace Assignment2
 {
     internal class Program
     {
@@ -17,6 +19,13 @@
             string firstTitle = "Clean Code";
             string secondTitle = "Clean Code";
             Console.WriteLine(object.ReferenceEquals(firstTitle, secondTitle));
+
+            // Q03
+            StringBuilder bookText = new StringBuilder();
+            bookText.Append("Book List");
+            bookText.Append(" - Updated");
+            Console.WriteLine(bookText.ToString());
+
 
         }
     }
