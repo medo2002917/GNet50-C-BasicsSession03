@@ -59,7 +59,23 @@ namespace Assignment2
                 Console.WriteLine("You can borrow this book");
             }
 
+            // Q10
+            {
+                string selectedTitle = "Refactoring";
 
+                switch (selectedTitle)
+                {
+                    case "Clean Code":
+                        Console.WriteLine("Great choice!");
+                        break;
+                    case "Refactoring":
+                        Console.WriteLine("Nice pick!");
+                        break;
+                    default:
+                        Console.WriteLine("Never heard of it");
+                        break;
+                }
+            }
         }
     }
 }
