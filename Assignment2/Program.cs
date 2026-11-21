@@ -42,7 +42,15 @@ namespace Assignment2
             // Q07
             Console.WriteLine(string.Format("Book: {0}, Pages: {1}", title, pages));
 
-
+            // Q08
+            if (pages > 300)
+            {
+                Console.WriteLine("Long Book");
+            }
+            else
+            {
+                Console.WriteLine("Short Book");
+            }
 
         }
     }
