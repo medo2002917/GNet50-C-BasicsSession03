@@ -95,6 +95,16 @@ namespace Assignment2
                 Console.WriteLine(books[index]);
                 index++;
             }
+
+            // Q14
+            int count = 0;
+            do
+            {
+                Console.WriteLine("Checking book...");
+                count++;
+            }
+            while (count < 3);
+
         }
     }
 }
