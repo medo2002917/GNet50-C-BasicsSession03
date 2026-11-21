@@ -105,6 +105,11 @@ namespace Assignment2
             }
             while (count < 3);
 
+            // Q15
+            foreach (string bookName in books)
+            {
+                Console.WriteLine(bookName);
+            }
         }
     }
 }
