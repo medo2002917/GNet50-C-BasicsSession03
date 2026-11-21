@@ -130,6 +130,19 @@ namespace Assignment2
                 }
                 Console.WriteLine(bookName);
             }
+
+            // Q18
+            PrintFirstBook();
+        }
+
+        static void PrintFirstBook()
+        {
+            if (books.Length == 0)
+            {
+                return;
+            }
+
+            Console.WriteLine(books[0]);
         }
     }
 }
