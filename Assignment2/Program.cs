@@ -110,6 +110,16 @@ namespace Assignment2
             {
                 Console.WriteLine(bookName);
             }
+
+            // Q16
+            foreach (string bookName in books)
+            {
+                if (bookName == "Refactoring")
+                {
+                    break;
+                }
+                Console.WriteLine(bookName);
+            }
         }
     }
 }
