@@ -12,6 +12,12 @@
                 Console.WriteLine(lowerTitle);
                 Console.WriteLine(upperTitle);
             }
+
+            // Q02
+            string firstTitle = "Clean Code";
+            string secondTitle = "Clean Code";
+            Console.WriteLine(object.ReferenceEquals(firstTitle, secondTitle));
+
         }
     }
 }
