@@ -76,6 +76,11 @@ namespace Assignment2
                         break;
                 }
             }
+
+            // Q11
+            string sizeLabel = pages > 300 ? "Long Book" : "Short Book";
+            Console.WriteLine(sizeLabel);
+
         }
     }
 }
