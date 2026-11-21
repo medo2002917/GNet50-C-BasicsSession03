@@ -87,6 +87,14 @@ namespace Assignment2
             {
                 Console.WriteLine((i + 1) + ". " + books[i]);
             }
+
+            // Q13
+            int index = 0;
+            while (index < books.Length)
+            {
+                Console.WriteLine(books[index]);
+                index++;
+            }
         }
     }
 }
